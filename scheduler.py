@@ -38,7 +38,10 @@ def timeFromNow(start_time):
     return tdelta
 
 def terminalJob(command):
-    os.system('cmd /c "' + command + '"')
+    if os.name == 'nt':
+        os.system('cmd /c "' + command + '"')
+    if os.name == 'posix':
+        os.system(command)
 
 loadUserOptions()
 t_delta = timeFromNow(start_time)
