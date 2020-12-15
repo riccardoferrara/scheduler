@@ -4,7 +4,7 @@ type: scheduler.py -h to have the help below:
 
 usage: scheduler.py [-h] [-T START_TIME] [-H REPEAT_DELAY] [-J SET_JOB]
                     [-R REPEAT]
-
+                    
 optional arguments:
   -h, --help            show this help message and exit
   -T START_TIME, --start_time START_TIME
