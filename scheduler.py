@@ -6,7 +6,7 @@ import os
 
 # Default values:
 start_time = '06:00'
-repeat_delay = '4'
+repeat_delay = 4
 set_job = 'date'
 repeat = True
 
